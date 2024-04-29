@@ -6,7 +6,7 @@ module.exports = {
   solidity: "0.8.0",
   networks: {
     'goerli': {
-			url: "https://testnet.emoney.network",
+			url: "https://testnet.emoney.network/",
 			chainId: 4544,
 			accounts: [process.env.DEPLOYER_PRIVATE_KEY]
 		},
